@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "BTTF";
+    src: url(css/style.css);
+}
+
+.nav {
+    background-color: rgb(236, 25, 25);
+    display: flex;
+    align-items: center;
+    font-family: "BTTF";
+    padding-top: 4px;
+    justify-content: space-around;
+    font-size: 21px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav img {
+    width: 50px;
+    margin: 10px;
+}
+
