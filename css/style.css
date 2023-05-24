@@ -62,11 +62,13 @@ body {
 .container-fluid {
     background-color: rgb(29, 207, 219);
     font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-fluid img {
     width: 44px;
-    justify-content: space-around;
 }
 
 /* DISEÑO PARA DESKTOP */
