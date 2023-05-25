@@ -58,6 +58,11 @@ body {
     font-family: "Montserrat";
 }
 
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* ESTILO PARA FOOTER */
 .container-fluid {
     background-color: rgb(29, 207, 219);
@@ -89,5 +94,20 @@ body {
         font-size: 40px;
         transition: all .5s;
         border-bottom: 6px solid black;
+    }
+    
+    .foto {
+        width: 800px;
+        margin: 20px;
+    }
+
+    .tapa {
+        display: flex;
+        margin: 10px;
+        padding: 8px;
+    }
+    
+    .tapa h1 {
+        font-size: 70px;
     }
 }
