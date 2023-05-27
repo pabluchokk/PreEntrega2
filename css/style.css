@@ -53,7 +53,7 @@ body {
 
 .container {
     color: #fff;
-    margin: 10px;
+    margin: 8px;
     font-size: 26px;
     font-family: "Montserrat";
 }
@@ -109,5 +109,52 @@ body {
     
     .tapa h1 {
         font-size: 70px;
+    }
+}
+
+/* WORLDS 2023 */
+
+.copa {
+    width: 450px;
+    
+}
+
+.w2023pI {
+    width: 450px;
+}
+
+.w2023swiss {
+    width: 450px;
+}
+
+.w2023final {
+    width: 450px;
+}
+
+@media (min-width: 1024px) {
+    .copa {
+        width: 780px;
+        margin: 15px;
+        border: 4px solid rgb(29, 207, 219);
+    }
+
+    .tapa2 {
+        display: flex;
+    }
+
+    .tapa2 h1 {
+        font-size: 60px;
+    }
+
+    .w2023pI {
+        width: 800px;
+    }
+
+    .w2023swiss {
+        width: 800px;
+    }
+    
+    .w2023final {
+        width: 800px;
     }
 }
